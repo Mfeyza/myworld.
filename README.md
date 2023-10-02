@@ -1,4 +1,4 @@
-# coursehomework1
+# myworld
 
 
-Visit my website : https://mfeyza.github.io/coursehomework1/
+Visit my website : https://mfeyza.github.io/myworld./
