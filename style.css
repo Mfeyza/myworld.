@@ -2,17 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 body{
-    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
     background-attachment: fixed;
+   background-image: url(./img/stars-1845140_1920.jpg);
+    position: relative;
 }
 header{
-    color: white;
+    color: rgb(138, 69, 69);
     padding-top: 2rem;
     padding-bottom: 0.5rem;
-    font-family: 'Bungee Hairline', cursive;
+    font-family: 'Pixelify Sans', cursive;
     font-size: 26px;
+    text-align: center;
+   text-shadow: 0 0 5px #4d1818, 
+   0 0 15px #6b1111,
+   0 0 20px #461014, 
+   0 0 25px #3a0e0e, 
+   0 0 50px #3b0d0f, 
+   0 0 50px #3a1212, 
+   0 0 50px #2e1113;;
+    }
+    
+    
 
 }
   .projects img{
@@ -30,7 +44,7 @@ header{
     }
     nav.sticky li{
         display: inline-block;
-        background-image: radial-gradient( circle farthest-corner at -4.5% 34.3%,  rgba(13,20,174,1) 0%, rgba(243,165,140,1) 90% );
+        background-image: linear-gradient( 99.6deg,  rgba(112,128,152,1) 10.6%, rgba(242,227,234,1) 32.9%, rgba(234,202,213,1) 52.7%, rgba(220,227,239,1) 72.8%, rgba(185,205,227,1) 81.1%, rgba(154,180,212,1) 102.4% );
     width: 120px;
     height: 30px;
     font-size: 25px;   
@@ -52,5 +66,167 @@ header{
         
         color: white;
         font-family: 'Pixelify Sans', cursive;
+        text-align: center;
+        height: 500px;
+        
+      
+    
+    }
+    .projects h2{
+        color: aliceblue;
+        font-family: 'Pixelify Sans', cursive;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+
+    .projects img{
+        width: 260px;
+        height: 260px;
+        text-align: center;
+        border-radius: 10px;
+        margin-right: 200px;
+        padding: 2px;
+
 
     }
+    .projects img:hover{
+cursor: pointer;
+opacity: 0.7;
+transform: scale(1.5);
+
+    }
+    .projects{
+        text-align: center;
+        justify-content: center;
+        
+    }
+    section h2{
+        font-size: 35px;
+        font-family: 'Pixelify Sans', cursive;
+        text-align: center;
+        color: darkgrey;
+
+    }
+
+    section h2:hover{
+        transform: scale(0.5);
+        cursor: pointer;
+        color: darkgrey;
+    }
+
+    .contact{
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+
+    }
+   
+    
+    .projects h2:hover{
+        transform: scale(2);
+        color:rgb(138, 69, 69);
+        
+    }
+    .contact a{
+        text-decoration: none;
+        color: rgb(104, 34, 34);
+        margin-right: 50px;
+        font-family: 'Pixelify Sans', cursive;
+
+    }
+    .contact a:hover{
+        color: darkgrey;
+    }
+
+    .message{
+        text-align: center;
+        width: 40%;
+        margin: auto;
+    }
+    .message input{
+        width: 50%;
+        padding: 8px;
+        background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    background-attachment: fixed;
+    box-shadow: 0 0 5px #7c5959, 
+    0 0 15px #6b1111,
+    0 0 20px #461014, 
+    0 0 25px #3a0e0e, 
+    0 0 50px #3b0d0f, 
+    0 0 50px #3a1212, 
+    0 0 50px #2e1113;
+    }
+    .message textarea{
+        width: 50%;
+        background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    background-attachment: fixed;
+    box-shadow: 0 0 5px #270f0f, 
+    0 0 15px #6b1111,
+    0 0 20px #461014, 
+    0 0 25px #3a0e0e, 
+    0 0 50px #3b0d0f, 
+    0 0 50px #3a1212, 
+    0 0 50px #2e1113;;
+        
+    }
+    .message ::placeholder{
+        font-family: 'Pixelify Sans', cursive;
+    }
+    
+    .message button{
+        font-family: 'Pixelify Sans', cursive;
+        font-size: 20px;
+       background-color: darkgray;
+       border-radius: 10px;
+        width: 25%;
+        padding: 8px;
+        text-shadow:0 0 5px #6e5a5a, 
+        0 0 15px #6b1111,
+        0 0 20px #461014, 
+        0 0 25px #3a0e0e, 
+        0 0 50px #3b0d0f, 
+        0 0 50px #3a1212, 
+        0 0 50px #2e1113 ;
+        cursor: pointer;
+
+    }
+    .message button.b-a:hover::after{
+        content:"✔✔ ";
+        }
+    iframe{
+        position: relative;
+        top: 10%;
+    }
+
+   .iframe1{
+    justify-content: center;
+position: fixed;
+left: 90%;
+bottom: 70%;
+
+display: inline-block;
+border-radius: 20px;
+
+
+   }
+   section.tıkla{
+    
+    position: fixed;
+    left: 95%;
+    bottom: 65%;
+    
+    border-radius: 20px;
+    
+   }
+   .tıkla a{
+    color: #6b1111;
+   font-size: 30px;
+    text-shadow:  0 0 5px #270f0f, 
+    0 0 15px #cec3c3,
+    0 0 20px #461014, 
+    0 0 25px #3a0e0e, 
+    0 0 50px #3b0d0f, 
+    0 0 50px #493d3d, 
+    0 0 50px #a59395;;;
+   }
