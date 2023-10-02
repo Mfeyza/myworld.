@@ -206,27 +206,25 @@ left: 90%;
 bottom: 70%;
 
 display: inline-block;
-border-radius: 20px;
+
+}
 
 
-   }
-   section.tıkla{
-    
+
+
+div.tikla{
     position: fixed;
     left: 95%;
     bottom: 65%;
-    
-    border-radius: 20px;
-    
-   }
-   .tıkla a{
-    color: #6b1111;
-   font-size: 30px;
-    text-shadow:  0 0 5px #270f0f, 
-    0 0 15px #cec3c3,
-    0 0 20px #461014, 
-    0 0 25px #3a0e0e, 
-    0 0 50px #3b0d0f, 
-    0 0 50px #493d3d, 
-    0 0 50px #a59395;;;
-   }
+
+}
+.tikla a{
+    color: #280b6b;
+    text-shadow:0 0 5px #46278d, 
+    0 0 15px #393e47,
+    0 0 20px #0b0a46, 
+    0 0 25px #727080, 
+    0 0 50px #6d1212, 
+    0 0 50px #463b6e, 
+    0 0 50px #66686e;
+    font-size: 30px;
