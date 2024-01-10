@@ -14,8 +14,8 @@ Backend: Node.js (if applicable).
 
 
 <div align="center">
-  <img src="./assets/Ekran görüntüsü 2024-01-10 184111.png"  width="35%" height="500" />
-  <img src="./assets/Ekran görüntüsü 2024-01-10 184132.png"  width="55%" height="600" />
+  <img src="./img/Ekran görüntüsü 2024-01-10 184111.png"  width="35%" height="500" />
+  <img src="./img/Ekran görüntüsü 2024-01-10 184132.png"  width="55%" height="600" />
 </div>
 
 
