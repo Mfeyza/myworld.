@@ -236,3 +236,65 @@ div.tikla{
     0 0 50px #463b6e, 
     0 0 50px #66686e;
     font-size: 30px;
+
+
+@media screen and (max-width: 1024px) {
+   
+    header {
+        font-size: 22px;
+    }
+
+    .projects img, .message input, .message textarea {
+        width: 60%; 
+    }
+
+    .message {
+        width: 60%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+    header {
+        font-size: 20px;
+    }
+
+    .projects img, .message input, .message textarea {
+        width: 70%; 
+    }
+
+    .message {
+        width: 70%; 
+    }
+
+    nav.sticky li {
+        font-size: 20px;
+        width: 100px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+  
+    header {
+        font-size: 18px;
+    }
+
+    .projects img, .message input, .message textarea {
+        width: 100%; 
+    }
+
+    .message {
+        width: 80%; 
+    }
+
+    nav.sticky li {
+        font-size: 18px;
+        width: 80px;
+    }
+
+    .iframe1 {
+        left: 50%; 
+        bottom: 60%;
+        transform: translateX(-50%);
+    }
+}
