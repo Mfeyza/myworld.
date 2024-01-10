@@ -12,4 +12,15 @@ Technologies Used
 Frontend: HTML, CSS (with a focus on responsive design), JavaScript, React.
 Backend: Node.js (if applicable).
 
+
+<div align="center">
+  <img src="./assets/Ekran görüntüsü 2024-01-10 184111.png"  width="35%" height="500" />
+  <img src="./assets/Ekran görüntüsü 2024-01-10 184132.png"  width="55%" height="600" />
+</div>
+
+
 Visit my website : https://mfeyza.github.io/myworld./
+
+
+
+
